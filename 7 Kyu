@@ -1,0 +1,18 @@
+function nbDig(n, d) {
+    // your code
+  let squaredIntegers = []
+  let count = 0;
+  
+  for(let i =0; i <= n; i++){
+    squaredIntegers.push(i**2)
+  }
+  
+  let stringIntegers = squaredIntegers.join('')
+  for(let j = 0; j < stringIntegers.length + 1; j++) {
+    if(stringIntegers[j] == d){
+      
+      count++
+    }
+  }
+  return count;
+}
