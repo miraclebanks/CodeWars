@@ -1,0 +1,8 @@
+function powersOfTwo(n){
+  let answers = [];
+  for(let i =0; i <= n; i++){
+    let multiple = Math.pow(2, i)
+    answers.push(multiple)
+  }
+  return answers;
+}
