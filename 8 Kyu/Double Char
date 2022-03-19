@@ -1,0 +1,11 @@
+function doubleChar(str) {
+  let result = []
+let arr = str.split('');
+  arr.forEach(char =>{
+             result.push(char);
+             result.push(char);
+    }
+  );
+  return result.join('')
+
+}
