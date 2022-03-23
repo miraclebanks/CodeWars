@@ -1,0 +1,5 @@
+function getAge(inputString){
+// return correct age (int). Happy coding :) 
+  let age = parseInt(inputString[0]);
+  return age;
+}
